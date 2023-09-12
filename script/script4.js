@@ -1,12 +1,25 @@
-const imagem1 = ["./imagem/imagem1.jpg", "./imagem/imagem2.jpg", "./imagem/imagem3.jpg", "./imagem/imagem4.jpg" ] 
+const imagens = ["./imagem/imagem1.jpg", "./imagem/imagem2.jpg", "./imagem/imagem3.jpg", "./imagem/imagem4.jpg"]
 
-let img = document.querySelector("img");
+let imagem = document.querySelector("img");
+let indice = 0;
 
-img.src = "./imagem/imagem2.jpg";
+imagem.src = imagens[indice]
 
 function voltar() {
-    console.log("teste")
+    if(indice > 0){
+        indice--;
+    } else {
+        indice = 3;
+    }
+    imagem.src =imagens[indice];
 }
 function proximo() {
-    console.log("teste")
+    if(indice < 3){
+        indice++;
+    } else {
+        indice = 0;
+    }
+    
+   imagem.src =imagens[indice];
+  
 }

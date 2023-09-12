@@ -1,12 +1,12 @@
 body{
     background-color: aquamarine;
-    width: 70%;
+    width: 90%;
     margin: auto;
 }
 img{
     width: 20rem;
     height: 20rem;
-    
+    display: block;
 }
 .conteudo{
     display: flex;
@@ -15,13 +15,9 @@ img{
    gap:  2rem;
 }
 
-button{
-    height:50px;
-}
-h1{
-    text-align: center;
-}
+
 
 .conteudo button{
     height: 5rem;
+    width: 5rem;
 }
