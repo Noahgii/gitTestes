@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+    width: 70%;
+    margin: auto;
+}
+img{
+    width: 20rem;
+    height: 20rem;
+    
+}
+.conteudo{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:  2rem;
+}
+
+button{
+    height:50px;
+}
+h1{
+    text-align: center;
+}
